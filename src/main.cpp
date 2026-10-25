@@ -1,7 +1,7 @@
 ﻿// ascii-widget.cpp : Defines the entry point for the application.
 //
 
-#include "ascii-widget.h"
+#include "main.h"
 
 using namespace std;
 
