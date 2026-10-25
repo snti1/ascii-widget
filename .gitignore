@@ -39,6 +39,7 @@
 *.app
 
 # Build directories
+out/
 build/
 Build/
 build-*/
@@ -66,3 +67,4 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+.vs/
