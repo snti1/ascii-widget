@@ -3,6 +3,10 @@
 
 #pragma once
 
+#ifndef UNICODE
+#define UNICODE
+#endif 
 #include <iostream>
+#include <windows.h>
 
 // TODO: Reference additional headers your program requires here.

@@ -12,7 +12,7 @@ endif()
 project ("ascii-widget")
 
 # Add source to this project's executable.
-add_executable (ascii-widget "src/main.cpp" "src/main.h")
+add_executable (ascii-widget WIN32 "src/main.cpp" "src/main.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET ascii-widget PROPERTY CXX_STANDARD 20)
